@@ -1,0 +1,529 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_blue.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <style>
+      span, p {font-family: 'Indie Flower', cursive;
+        font-size:30px;
+      }
+      .demo-list-radio {
+        display: inline;
+}
+#ullist{ text-align:center;
+  font-family: 'Indie Flower', cursive;
+  font-size:25px;
+}
+#description{font-size:24px;}
+    </style>
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Stress Survey</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <br>
+        <div class="page-content">
+          <h1>Stress Survey</h1>
+          <p id="description">Important: You must answer all 10 questions before submitting before receiving recommendations.</p>
+          <br>
+        <p class="q1">1. What is your gender? </p>
+        <ul class="demo-list-control mdl-list q1">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Male</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
+        <input type="radio" id="list-option-1" class="mdl-radio__button" name="options" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. Female</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-2">
+        <input type="radio" id="list-option-2" class="mdl-radio__button" name="options" value="1"  />
+          <li class="mdl-list__item">
+  </li>
+</ul>
+</ul>
+        <p class="q2">2. Do you have any priorities, responsibilities, and/or commitments?</p>
+        <ul class="demo-list-control mdl-list q2">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Yes</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect busy" for="list-option-12">
+        <input type="radio" id="list-option-12" class="mdl-radio__button" name="options2" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. No</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-22">
+        <input type="radio" id="list-option-22" class="mdl-radio__button" name="options2" value="1"  />
+</ul>
+</ul>
+        <p class="q3">3. What's your favorite hobby?</p>
+        <ul class="demo-list-control mdl-list q3">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Singing / Listening to music</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect music" for="list-option-13">
+        <input type="radio" id="list-option-13" class="mdl-radio__button" name="options3" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. Drawing</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect art" for="list-option-23">
+        <input type="radio" id="list-option-23" class="mdl-radio__button" name="options3" value="1"  />
+          <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>c. Sports</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect athletic" for="list-option-33">
+        <input type="radio" id="list-option-33" class="mdl-radio__button" name="options3" value="1"  />
+      </label>
+    </span>
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>d. Video Games / Electronics</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect gaming" for="list-option-43">
+        <input type="radio" id="list-option-43" class="mdl-radio__button" name="options3" value="1"  />
+      </label>
+    </span>
+  </li>
+</ul>
+</ul>
+        <p class="q4">4. What's your age?</p>
+        <ul class="demo-list-control mdl-list q4">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. 13 or younger</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-14">
+        <input type="radio" id="list-option-14" class="mdl-radio__button" name="options4" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. 14</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-24">
+        <input type="radio" id="list-option-24" class="mdl-radio__button" name="options4" value="1"  />
+          <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>c. 15</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-34">
+        <input type="radio" id="list-option-34" class="mdl-radio__button" name="options4" value="1"  />
+      </label>
+    </span>
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>d. 16 or older</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-44">
+        <input type="radio" id="list-option-44" class="mdl-radio__button" name="options4" value="1"  />
+      </label>
+    </span>
+  </li>
+</ul>
+</ul>
+        <p class="q5">5. What's your favorite basic color?</p>
+        <ul class="demo-list-control mdl-list q5">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Green</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect green" for="list-option-15">
+        <input type="radio" id="list-option-15" class="mdl-radio__button" name="options5" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. Blue</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect blue" for="list-option-25">
+        <input type="radio" id="list-option-25" class="mdl-radio__button" name="options5" value="1"  />
+          <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>c. Red</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect red" for="list-option-35">
+        <input type="radio" id="list-option-35" class="mdl-radio__button" name="options5" value="1"  />
+      </label>
+    </span>
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>d. Yellow</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect yellow" for="list-option-45">
+        <input type="radio" id="list-option-45" class="mdl-radio__button" name="options5" value="1"  />
+      </label>
+    </span>
+  </li>
+</ul>
+</ul>
+        <p class="q6">6. Do you have a favorite food? </p>
+        <ul class="demo-list-control mdl-list q6">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Yes</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect food" for="list-option-16">
+        <input type="radio" id="list-option-16" class="mdl-radio__button" name="options6" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. No</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-26">
+        <input type="radio" id="list-option-26" class="mdl-radio__button" name="options6" value="1"  />
+          <li class="mdl-list__item">
+</ul>
+</ul>
+        <p class="q7">7. Do you have a pet?</p>
+        <ul class="demo-list-control mdl-list q7">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Yes</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect pet" for="list-option-17">
+        <input type="radio" id="list-option-17" class="mdl-radio__button" name="options7" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. No</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-27">
+        <input type="radio" id="list-option-27" class="mdl-radio__button" name="options7" value="1"  />
+</ul>
+</ul>
+        <p class="q8">8. Do you have siblings?</p>
+        <ul class="demo-list-control mdl-list q8">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Yes</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect siblings" for="list-option-18">
+        <input type="radio" id="list-option-18" class="mdl-radio__button" name="options8" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. No</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-28">
+        <input type="radio" id="list-option-28" class="mdl-radio__button" name="options8" value="1"  />
+        </li>
+</ul>
+</ul>
+        <p class="q9">9. What's your favorite animal?</p>
+        <ul class="demo-list-control mdl-list q9">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a. Dog</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect dog" for="list-option-19">
+        <input type="radio" id="list-option-19" class="mdl-radio__button" name="options9" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b. Cat</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect cat" for="list-option-29">
+        <input type="radio" id="list-option-29" class="mdl-radio__button" name="options9" value="1"  />
+          <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>c. Other</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect other" for="list-option-39">
+        <input type="radio" id="list-option-39" class="mdl-radio__button" name="options9" value="1"  />
+      </label>
+    </span>
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>d. I have no favorite animal.</p>
+
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect nfa" for="list-option-49">
+        <input type="radio" id="list-option-49" class="mdl-radio__button" name="options9" value="1"  />
+      </label>
+    </span>
+  </li>
+</ul>
+</ul>
+        <p class="q10">10. How Stressed are you?</p>
+        <ul class="demo-list-control mdl-list q10">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>a.</p>
+    <p> Little Stress</p>
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect lstress" for="list-option-110">
+        <input type="radio" id="list-option-110" class="mdl-radio__button" name="options10" value="1"  />
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>b.</p>
+    <p>  Average Stress</p>
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect astress" for="list-option-210">
+        <input type="radio" id="list-option-210" class="mdl-radio__button" name="options10" value="1"  />
+          <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>c.</p>
+    <p>  Really Stressed</p>
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect rstress" for="list-option-310">
+        <input type="radio" id="list-option-310" class="mdl-radio__button" name="options10" value="1"  />
+      </label>
+    </span>
+      </label>
+    </span>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <p>d.</p>
+    <p>  Extremely Stressed</p>
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect estress" for="list-option-410">
+        <input type="radio" id="list-option-410" class="mdl-radio__button" name="options10" value="1"  />
+      </label>
+    </span>
+  </li>
+</ul>
+<center>
+<button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Submit
+</button>
+</center>
+<br>
+<div id="recommendations"></div>
+</div>
+      </main>
+    </div>
+    <script>
+    $("#recommendations").hide();
+      var artist=0;
+      var music=0;
+      var gaming=0;
+      var athletic=0;
+      var stress=0;
+      var busy=0;
+      var color=0;
+      var food=0;
+      var pet=0;
+      var fanimal=0;
+      var countchecks=$('.is-checked');
+      $("#submit").click(function (){
+        $("#recommendations").empty();
+        $("#recommendations").append("<center><h2>Tips To Reduce Stress</h2></center>");
+        if ($(".art").hasClass("is-checked")){
+        artist = 1;
+        $("#recommendations").append("<ul id='ullist'>" + "<li>Look at art.</li>" + "</ul>"
+        );
+        }
+        
+        if ($(".music").hasClass("is-checked")){
+        music = 1;
+        $("#recommendations").append("<ul id='ullist'>" + "<li>Listen to music or sing.</li>" + "</ul>"
+        );
+        }
+        
+        if ($(".athletic").hasClass("is-checked")){
+        athletic =  1;
+        $("#recommendations").append("<ul id='ullist'>" + "<li>Play a sport or watch a sport.</li>" + "</ul>"
+        );
+        }
+        
+        if ($(".gaming").hasClass("is-checked")){
+        gaming =  1;
+        $("#recommendations").append("<ul id='ullist'>" + "<li>Play a video game that you like. </li>" + "</ul>"
+);
+
+        }
+        if ($(".busy").hasClass("is-checked")){
+        busy =  1;
+        $("#ullist").append("<li> Take a break if you can. Slow down your working speed if you can and need to. </li>"
+        );
+        }
+        if ($(".green").hasClass("is-checked")){
+        color = 1;
+          if(artist == 1){
+            $("#ullist").append("<li> Look at art painting or pictures that has green as a main color and feels calm to you. </li>"
+        );
+          }
+        }
+        
+        if ($(".blue").hasClass("is-checked")){
+        color = 2;
+        if(artist == 1){
+            $("#ullist").append("<li> Look at art painting or pictures that has blue as a main color and feels calm to you. </li>"
+        );
+          }
+        }
+        
+        if ($(".red").hasClass("is-checked")){
+        color = 3;
+        if(artist == 1){
+            $("#ullist").append("<li> Look at art painting or pictures that has red as a main color and feels calm to you. </li>"
+        );
+          }
+        }
+        
+        if ($(".yellow").hasClass("is-checked")){
+        color = 4;
+        if(artist == 1){
+            $("#ullist").append("<li> Look at art painting or pictures that has yellow as a main color and feels calm to you. </li>"
+        );
+          }
+        }
+        
+        if ($(".food").hasClass("is-checked")){
+        food = 1;
+         $("#ullist").append("<li> Cook your favorite food if you know how to; otherwise, just buy it and eat it. </li>"
+        );
+        }
+                
+        if ($(".pet").hasClass("is-checked")){
+        pet = 1;
+         $("#ullist").append("<li> Play with your pet. </li>"
+        );
+        }
+                
+        if ($(".dog").hasClass("is-checked")){
+        fanimal = 1;
+         $("#ullist").append("<li> If you have a dog, play with it; otherwise, look up pictures of dog breeds you like. </li>"
+        );
+        }
+                
+        if ($(".cat").hasClass("is-checked")){
+        fanimal = 2;
+        $("#ullist").append("<li> If you have a cat, play with it; otherwise, look up pictures of cat breeds you like. </li>"
+        );
+        }
+                
+        if ($(".other").hasClass("is-checked")){
+        fanimal =  3;
+         $("#ullist").append("<li> If you have that animal, play with it; otherwise, look up pictures of it. </li>"
+        );
+        }
+                
+        if ($(".nfa").hasClass("is-checked")){
+        fanimal = 0;
+        }
+                
+        if ($(".lstress").hasClass("is-checked")){
+        stress = 1;
+        $("#ullist").append("<li> Take deep breaths. </li>"
+        );
+        }
+                
+        if ($(".astress").hasClass("is-checked")){
+        stress = 2;
+        $("#ullist").append("<li> Take deep breaths, get and use a stress ball. </li>"
+        );
+        }
+        
+        if ($(".rstress").hasClass("is-checked")){
+        stress =  3;
+        $("#ullist").append("<li> Take deep breaths, get and use a stress ball, and meditate. </li>"
+        );
+        }
+                
+        if ($(".estress").hasClass("is-checked")){
+        stress = 4;
+        $("#ullist").append("<li> Take deep breaths, get and use a stress ball, meditate, and slow down. </li>"
+        );
+        }
+        
+        $("#recommendations").show();
+      });
+    </script>
+  </body>
+</html>
